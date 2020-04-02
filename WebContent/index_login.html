@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title>WebRTC: Still photo capture demo</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="main_login.css" type="text/css" media="all">
+	<script src="capture_login.js">
+	</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+body {
+	background-color: #000;
+}
+</style>
+</head>
+<body>
+<form name="form1" method="post" action="userlogin.jsp">
+  <table rules="rows" width="60%" border="1" align="center">
+    <tr>
+      <td align="center" bgcolor="#CCCCCC"><h1>Face Of The Real Voter</h1></td>
+    </tr>
+    <tr>
+      <td bgcolor="#CCCCCC"><div class="contentarea">
+        <h1>&nbsp;</h1>
+        <h1>&nbsp;</h1>
+        <div class="camera">
+          <video id="video">Video st.</video>
+          <button id="startbutton">Take photo</button>
+          </div>
+        <canvas id="canvas"> </canvas>
+        <div class="output"> <img id="photo" alt="The screen capture will appear in this box."> </div>
+        <p></p>
+      </div></td>
+    </tr>
+    <tr>
+      <td align="right"><span class="contentarea">
+        <input type="submit" name="button" id="button" value="Submit">
+      </span></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
